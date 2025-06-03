@@ -1,5 +1,3 @@
-# G-FROG
-
 [Parc Instrumental](/parc-instrumental) | [Parc Instrumental](/parc-instrumental) 
 
 > DAS, Sismologie, Géosciences
