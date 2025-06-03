@@ -1,4 +1,4 @@
-[Parc Instrumental](/parc-instrumental) | [Parc Instrumental](/parc-instrumental) 
+[Parc Instrumental](/parc-instrument) | [Parc Instrumental](/parc-instrument) 
 
 > DAS, Sismologie, Géosciences
 
@@ -15,4 +15,4 @@ Partenaires
 
 ## Pages
 
-[Parc Instrumental]({{ '/parc-instrumental/' | relative_url }})
+[Parc Instrumental]({{ '/parc-instrument/' | relative_url }})
