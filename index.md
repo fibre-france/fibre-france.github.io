@@ -17,4 +17,4 @@ Partenaires
 
 ## Pages
 
-[Parc Instrumental]({{ '/about/' | relative_url }})
+[Parc Instrumental]({{ '/parc-instrumental/' | relative_url }})
