@@ -3,8 +3,6 @@ layout: home
 title: G-FROG
 ---
 
-# G-FROG
-
 Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
 
 > DAS, Sismologie, Géosciences
