@@ -14,3 +14,7 @@ Partenaires
 - EPOS-France
 - FormaTerre
 - Observatoire de la Côte d'Azur
+
+## Pages
+
+[Parc Instrumental]({{ '/about/' | relative_url }})
