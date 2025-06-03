@@ -1,4 +1,11 @@
-[Parc Instrumental](/parc-instrument) | [Parc Instrumental](/parc-instrument) 
+---
+layout: home
+title: G-FROG
+---
+
+# G-FROG
+
+Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
 
 > DAS, Sismologie, Géosciences
 
@@ -12,7 +19,3 @@ Partenaires
 - EPOS-France
 - FormaTerre
 - Observatoire de la Côte d'Azur
-
-## Pages
-
-[Parc Instrumental]({{ '/parc-instrument/' | relative_url }})

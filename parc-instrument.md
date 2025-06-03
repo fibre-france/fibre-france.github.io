@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Parc Instrumental
-permalink: /parc-instrument/
+permalink: /parc-instruments/
 ---
 
 Page en cours de construction.
