@@ -12,3 +12,13 @@ Partenaires
 - EPOS-France
 - FormaTerre
 - Observatoire de la Côte d'Azur
+
+<ul>
+  {% assign category = "projets" %}
+  {% for post in site.categories[category] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+    </li>
+  {% endfor %}
+</ul>
