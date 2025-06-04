@@ -4,7 +4,7 @@ layout: home
 list_title: Dernières activitées
 ---
 
-# Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
+## Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
 
 > DAS, Sismologie, Géosciences
 
