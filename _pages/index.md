@@ -1,8 +1,6 @@
 ---
 permalink: /
-layout: home
-list_title: Actualité
-list_category: news
+layout: page
 ---
 
 Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
