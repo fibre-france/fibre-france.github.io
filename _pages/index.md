@@ -1,3 +1,9 @@
+---
+permalink: /
+layout: home
+list_title: Actualité
+---
+
 Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
 
 > DAS, Sismologie, Géosciences
