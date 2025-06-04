@@ -1,7 +1,8 @@
 ---
 permalink: /
-layout: page
+layout: home
 title: Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
+list_title: Dernières activitées
 ---
 
 > DAS, Sismologie, Géosciences
@@ -16,17 +17,3 @@ Partenaires
 - EPOS-France
 - FormaTerre
 - Observatoire de la Côte d'Azur
-
-<div class="post-list">
-  <ul class="post-items">
-    {% for post in site.posts %}
-      <li class="post-item">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-        {% if post.excerpt %}
-          <p class="post-excerpt">{{ post.excerpt }}</p>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-</div>
