@@ -1,11 +1,8 @@
 ---
 permalink: /
 layout: page
-list_tile: Actualité
-list_category: news
+title: Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
 ---
-
-Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
 
 > DAS, Sismologie, Géosciences
 
@@ -20,52 +17,16 @@ Partenaires
 - FormaTerre
 - Observatoire de la Côte d'Azur
 
-
-{%- if posts.size > 0 -%}
-  {%- if page.list_title -%}
-    <h2 class="post-list-heading">{{ page.list_title }}</h2>
-  {%- endif -%}
-  <ul class="post-list">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {%- assign category = page.list_category -%}
-    {%- for post in site.categories[category] -%}
-    <li>
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if site.minima.show_excerpts -%}
-        {{ post.excerpt }}
-      {%- endif -%}
-    </li>
-    {%- endfor -%}
+<div class="post-list">
+  <ul class="post-items">
+    {% for post in site.posts %}
+      <li class="post-item">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+        {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt }}</p>
+        {% endif %}
+      </li>
+    {% endfor %}
   </ul>
-
-  {% if site.paginate %}
-    <div class="pager">
-      <ul class="pagination">
-      {%- if paginator.previous_page %}
-        <li>
-          <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page" title="Go to Page {{ paginator.previous_page }}">
-            {{ paginator.previous_page }}
-          </a>
-        </li>
-      {%- else %}
-        <li><div class="pager-edge">•</div></li>
-      {%- endif %}
-        <li><div class="current-page">{{ paginator.page }}</div></li>
-      {%- if paginator.next_page %}
-        <li>
-          <a href="{{ paginator.next_page_path | relative_url }}" class="next-page" title="Go to Page {{ paginator.next_page }}">
-            {{ paginator.next_page }}
-          </a>
-        </li>
-      {%- else %}
-        <li><div class="pager-edge">•</div></li>
-      {%- endif %}
-      </ul>
-    </div>
-  {%- endif %}
-{%- endif -%}
+</div>
