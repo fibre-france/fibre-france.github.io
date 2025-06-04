@@ -13,8 +13,9 @@ Partenaires
 - FormaTerre
 - Observatoire de la Côte d'Azur
 
+
 <ul>
-  {% assign category = "projets" %}
+  {% assign category = "actualite" %}
   {% for post in site.categories[category] %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
