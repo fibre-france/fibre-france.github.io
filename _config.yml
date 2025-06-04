@@ -5,3 +5,7 @@ theme: minima
 
 include:
  - _pages
+
+ignore:
+ - LICENSE
+ - README.md
