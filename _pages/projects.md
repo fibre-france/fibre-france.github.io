@@ -7,7 +7,7 @@ title: Projets
 Page en cours de construction.
 
 <ul>
-  {% assign category = "projets" %}
+  {% assign category = "projects" %}
   {% for post in site.categories[category] %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>

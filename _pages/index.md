@@ -22,7 +22,7 @@ Partenaires
 Du texte.
 
 <ul>
-  {% assign category = "actualite" %}
+  {% assign category = "news" %}
   {% for post in site.categories[category] %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
