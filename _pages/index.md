@@ -19,13 +19,14 @@ Partenaires
 - FormaTerre
 - Observatoire de la Côte d'Azur
 
+Du texte.
 
 <ul>
   {% assign category = "actualite" %}
   {% for post in site.categories[category] %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+      <!-- <small>({{ post.date | date: "%Y-%m-%d" }})</small> -->
     </li>
   {% endfor %}
 </ul>
