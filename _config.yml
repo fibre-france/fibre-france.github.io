@@ -1,3 +1,7 @@
-theme: minima
 title: G-FROG
 description: Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
+
+theme: minima
+
+include:
+ - _pages
