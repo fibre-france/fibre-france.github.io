@@ -41,6 +41,9 @@ include:
 # to override the default setting.
 exclude:
   - README.md
+  - LICENSE
+  - .gitignore
+  - Gemfile
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
@@ -135,6 +138,6 @@ collections:
   instruments:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
