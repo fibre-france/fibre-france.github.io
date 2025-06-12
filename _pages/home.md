@@ -42,25 +42,5 @@ Notre réseau favorise l’innovation, la diffusion des connaissances et la prom
 {% include feature_row %}
 
 Partenaires:
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://www.epos-france.fr/">
-        <img src="https://www.epos-france.fr/sites/all/themes/eposfrance/logo.png" alt="EPOS-France" height="60"><br>
-        EPOS-France
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://formaterre.fr/">
-        <img src="https://formaterre.fr/wp-content/uploads/2022/03/logo-formaterre.png" alt="FormaTerre" height="60"><br>
-        FormaTerre
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.oca.eu/">
-        <img src="https://www.oca.eu/images/oca/logo_oca.png" alt="Observatoire de la Côte d’Azur" height="60"><br>
-        Observatoire de la Côte d’Azur
-      </a>
-    </td>
-  </tr>
-</table>
+| [EPOS-France](https://www.epos-france.fr/) | [FormaTerre](https://formaterre.fr/) | [Observatoire de la Côte d’Azur](https://www.oca.eu/) |
+|:---:|:---:|:---:|

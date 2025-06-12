@@ -14,8 +14,6 @@ categories:
   - Partial Differential Equations
 ---
 
-# ERC ABYSS Project Summary
-
 The ERC ABYSS project, led by Diane Rivet, focuses on the study of black holes and their mathematical properties. The project aims to deepen our understanding of black holes, particularly their stability and the behavior of waves in their vicinity. By leveraging advanced mathematical techniques in general relativity and partial differential equations, the team investigates fundamental questions about the dynamics of black holes and the propagation of fields in curved spacetime.
 
 Key objectives include:
