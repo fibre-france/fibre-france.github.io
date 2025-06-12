@@ -98,18 +98,19 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      show_date: true
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _instruments
   - scope:
       path: ""
@@ -117,7 +118,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
   # _projects
   - scope:
       path: ""
@@ -125,7 +125,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
 
 category_archive:
   type: liquid
