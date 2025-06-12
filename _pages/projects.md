@@ -1,16 +1,6 @@
 ---
-permalink: /projets
-layout: page
-title: Projets
+layout: collection
+title: Projects
+permalink: /projects/
+collection: projects
 ---
-
-Page en cours de construction.
-
-<ul>
-  {% assign category = "projects" %}
-  {% for post in site.categories[category] %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
