@@ -11,7 +11,7 @@ header:
 excerpt: >
    Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
 feature_row:
-  - image_path: /assets/images/background.jpg
+  - image_path:  /assets/images/GFROG_LOGO.jpg
     alt: "news"
     title: "Actualités"
     excerpt: "Dernières nouvelles et événements du GdR G-FROG."
