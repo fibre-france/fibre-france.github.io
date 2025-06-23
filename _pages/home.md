@@ -18,14 +18,14 @@ feature_row:
     url: "/news/"
     btn_class: "btn--primary"
     btn_label: "En savoir plus"
-  - image_path: /assets/images/background.jpg
+  - image_path: /assets/images/GFROG_LOGO.jpg
     alt: "projects"
     title: "Projets"
     excerpt: "Vitrine des projets menées par les memebres du GdR G-FROG."
     url: "/projects/"
     btn_class: "btn--primary"
     btn_label: "En savoir plus"
-  - image_path: /assets/images/background.jpg
+  - image_path: /assets/images/GFROG_LOGO.jpg
     alt: "instruments"
     title: "Instruments"
     excerpt: "Le GdR G-FROG mets des instruments à dispositions de ses membres."
