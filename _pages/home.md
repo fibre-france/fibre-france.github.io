@@ -5,9 +5,9 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/background.jpg
-  # actions:
-  #   - label: "<i class='fas fa-download'></i> Install now"
-  #     url: "/docs/quick-start-guide/"
+  actions:
+    - label: "<i class='fas fa-download'></i> En savoir plus"
+      url: "/about/"
 excerpt: >
    Groupement Français de Recherche pour la mesure sur Fibre Optique en Géosciences
 feature_row:
