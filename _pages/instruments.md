@@ -5,6 +5,12 @@ title: "Instruments"
 
 Explore our curated collection of scientific instruments available for borrowing. Whether you're conducting research, teaching, or pursuing a personal project, these tools are here to support your scientific endeavors. Browse the list below to find detailed information, images, and descriptions for each instrument.
 
+Currently, one instrument is available for reservation. This instrument is a Febus A1 DAS from the ANR MONIDAS project. You can book the instrument for your next campaign in this calendar and send an email to Diane Rivet.
+
+For the moment, there is no “ticket modérateur,” and therefore you must cover the full cost of round-trip shipping to OCA between experiments, or shipping to the next experiment site.
+
+[Réservation DAS Mobile](https://docs.google.com/spreadsheets/d/14kikqxjNgn07JRaNIiZMTrdnUB7TYoG37IgzA2vU55w/edit?gid=0#gid=0)
+
 {% for instrument in site.instruments %}
 <div style="display: flex; align-items: flex-start; margin-bottom: 2em;">
     <a href="{{ instrument.url }}">
