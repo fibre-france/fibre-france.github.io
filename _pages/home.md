@@ -18,7 +18,7 @@ feature_row:
     url: "/news/"
     btn_class: "btn--primary"
     btn_label: "En savoir plus"
-  - image_path: /assets/images/GFROG_LOGO.jpg
+  - image_path: /assets/images/stromboli.jpg
     alt: "projects"
     title: "Projets"
     excerpt: "Vitrine des projets menées par les memebres du GdR G-FROG."
