@@ -14,13 +14,73 @@ categories:
   - Partial Differential Equations
 ---
 
-The ERC ABYSS project, led by Diane Rivet, focuses on the study of black holes and their mathematical properties. The project aims to deepen our understanding of black holes, particularly their stability and the behavior of waves in their vicinity. By leveraging advanced mathematical techniques in general relativity and partial differential equations, the team investigates fundamental questions about the dynamics of black holes and the propagation of fields in curved spacetime.
+Nom du projet : ABYSS – Monitoring megathrust faults with abyssal distributed acoustic sensing 
+Université Côte d'Azur
++2
+cordis.europa.eu
++2
 
-Key objectives include:
-- Analyzing the stability of black hole solutions.
-- Studying the decay of waves and perturbations around black holes.
-- Exploring the mathematical structures underlying black hole physics.
+Portée : European Research Council (ERC) Starting Grant 
+CNRS Terre & Univers
 
-The project brings together researchers in mathematics and physics to address open problems in the field, contributing to both theoretical insights and potential applications in astrophysics.
+Durée : 1er octobre 2022 – 30 septembre 2027 
+cordis.europa.eu
+
+Budget : ~ 2,13 millions d’euros 
+cordis.europa.eu
+
+Institution coordinatrice : Observatoire de la Côte d’Azur (Géoazur) 
+cordis.europa.eu
+
+Objectif principal :
+
+Étudier l’état mécanique d’une zone de faille de subduction avant de grands séismes (magnitude > 6) afin d’identifier des signaux précurseurs systématiques. 
+geoazur.oca.eu
++1
+
+Renforcer les systèmes d’alerte sismique via des données très sensorielles et denses. 
+cote-azur.cnrs.fr
++2
+Google Sites
++2
+
+Zone d’étude : la zone de subduction chilienne, l’une des plus actives au monde. 
+geoazur.oca.eu
++1
+
+Technologie utilisée :
+
+Distributed Acoustic Sensing (DAS) : exploitation de fibres optiques sous-marines (câbles de télécommunication) comme capteurs sismiques. 
+Université Côte d'Azur
++1
+
+Réseau très dense de « capteurs virtuels » le long des fibres, permettant une sensibilité très fine. 
+Google Sites
++1
+
+Collaboration :
+
+Réseau GTD (GTD Telecom) le long de la côte chilienne. 
+cote-azur.cnrs.fr
+
+Centro Sismológico Nacional du Chili. 
+cote-azur.cnrs.fr
++1
+
+Innovation :
+
+Surveillance continue en fond marin. 
+geoazur.oca.eu
++1
+
+Traitement des données en temps réel pour détecter des signaux faibles ou précurseurs. 
+Université Côte d'Azur
+
+Impacts attendus :
+
+Amélioration des systèmes d’alerte sismique au Chili : vitesse et précision des alertes renforcées. 
+geoazur.oca.eu
+
+Avancées scientifiques dans la compréhension des phases préparatoires aux séismes. 
 
 For more details, visit the [ERC ABYSS project page](https://sites.google.com/view/dianerivet/erc-abyss).
