@@ -29,7 +29,7 @@ img.huechange { filter: hue-rotate(120deg); }
   }).addTo(map);
 
   const markers = [
-  {% for project in loc_projects %}
+  {% for project in site.projects %}
     { name: {{ project.title }}, coords: [{{ project.latitude }}, {{ project.longitude }}], url: {{ project.url}} },
   {% endfor %}
   ];
