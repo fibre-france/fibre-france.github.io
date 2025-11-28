@@ -39,8 +39,6 @@ img.huechange { filter: hue-rotate(120deg); }
   });
 </script>
 
-{% for project in site.projects %}`
-
 <style>
 .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; margin-top: 1rem; }
 .project-card { background: #fff; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
@@ -64,5 +62,5 @@ img.huechange { filter: hue-rotate(120deg); }
     </div>
     <p><a class="button" href="{{ project.url }}">Voir la page</a></p>
   </div>
-{% endfor %}
+{% end for %}
 </div>
