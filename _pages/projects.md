@@ -30,7 +30,7 @@ img.huechange { filter: hue-rotate(120deg); }
 
   const markers = [
   {% for project in site.projects %}
-    { name: {{ project.title }}, coords: [{{ project.latitude }}, {{ project.longitude }}], url: {{ project.url}} },
+    { name: {{ project.title | jsonify }}, coords: [{{ project.latitude }}, {{ project.longitude }}], url: {{ project.url | jsonify }} },
   {% endfor %}
   ];
 
