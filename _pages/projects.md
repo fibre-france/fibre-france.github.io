@@ -29,7 +29,9 @@ img.huechange { filter: hue-rotate(120deg); }
   }).addTo(map);
 
   const markers = [
-    { name: "ABYSS", coords: [-31.1, -72.2], url: "/projects/abyss" },
+  {% for project in loc_projects %}
+    { name: {{ project.title }}, coords: [{{ project.latitude }}, {{ project.longitude }}], url: {{ project.url}} },
+  {% endfor %}
   ];
 
   markers.forEach(m => {
