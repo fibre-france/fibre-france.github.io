@@ -25,7 +25,7 @@ collection: projects
   }).addTo(map);
 
   const markers = [
-    { name: "ABYSS", coords: [31.1, -72.2], url: "/projects/abyss" },
+    { name: "ABYSS", coords: [-31.1, -72.2], url: "/projects/abyss" },
   ];
 
   markers.forEach(m => {
