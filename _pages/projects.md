@@ -62,5 +62,5 @@ img.huechange { filter: hue-rotate(120deg); }
     </div>
     <p><a class="button" href="{{ project.url }}">Voir la page</a></p>
   </div>
-{% end for %}
+{% endfor %}
 </div>
