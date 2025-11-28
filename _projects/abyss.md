@@ -19,6 +19,8 @@ sampling_rate: "62.5-100Hz"
 spatial_resolution: "15m"
 ---
 
+Monitoring megathrust faults with abyssal distributed acoustic sensing
+
 ## Objectifs
 
 - Étudier l’état mécanique d’une zone de faille de subduction avant de grands séismes (magnitude > 6) afin d’identifier des signaux précurseurs systématiques. 
