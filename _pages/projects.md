@@ -25,9 +25,7 @@ collection: projects
   }).addTo(map);
 
   const markers = [
-    { name: "Paris", coords: [48.8566, 2.3522], url: "/pages/paris.html" },
-    { name: "Tokyo", coords: [35.6895, 139.6917], url: "/pages/tokyo.html" },
-    { name: "New York", coords: [40.7128, -74.0060], url: "/pages/newyork.html" }
+    { name: "ABYSS", coords: [-72.2, -31.1], url: "/projects/abyss" },
   ];
 
   markers.forEach(m => {
