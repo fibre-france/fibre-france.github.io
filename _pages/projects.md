@@ -16,6 +16,10 @@ collection: projects
   src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
 </script>
 
+<style>
+img.huechange { filter: hue-rotate(120deg); }
+</style>
+
 <script>
   const map = L.map('map').setView([20, 0], 2);
 
@@ -29,14 +33,8 @@ collection: projects
   ];
 
   markers.forEach(m => {
-    const circle = L.circleMarker(m.coords, {
-      radius: 8,
-      color: '#920000',
-      fillColor: '#920000',
-      fillOpacity: 0.9,
-      weight: 1
-    }).addTo(map);
-
-    circle.bindPopup(`<b>${m.name}</b><br><a href="${m.url}">Voir la page</a>`);
+    const marker = L.marker(m.coords).addTo(map);
+    marker.bindPopup(`<b>${m.name}</b><br><a href="${m.url}">Voir la page</a>`);
+    marker._icon.classList.add("huechange");
   });
 </script>
