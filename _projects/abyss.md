@@ -21,6 +21,58 @@ spatial_resolution: "15m"
 
 Monitoring megathrust faults with abyssal distributed acoustic sensing
 
+<div class="project-info-card">
+  <h2>Project Information</h2>
+  
+  <div class="info-grid">
+    <div class="info-item">
+      <span class="info-label">Principal Investigator</span>
+      <span class="info-value">{{ page.pi }}</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Institution</span>
+      <span class="info-value">{{ page.institution }}</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Contact</span>
+      <span class="info-value"><a href="mailto:{{ page.contact }}">{{ page.contact }}</a></span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Funding</span>
+      <span class="info-value">{{ page.funding }}</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Duration</span>
+      <span class="info-value">{{ page.start_date }} - {{ page.end_date }}</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Location</span>
+      <span class="info-value">{{ page.latitude }}°S, {{ page.longitude }}°W</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Categories</span>
+      <span class="info-value">{{ page.categories | join: ", " }}</span>
+    </div>
+  </div>
+
+  <h3>Technical Specifications</h3>
+  
+  <div class="tech-specs">
+    <div class="spec-item">
+      <span class="spec-label">Interrogators</span>
+      <span class="spec-value">{{ page.interrogators }}</span>
+    </div>
+    <div class="spec-item">
+      <span class="spec-label">Sampling Rate</span>
+      <span class="spec-value">{{ page.sampling_rate }}</span>
+    </div>
+    <div class="spec-item">
+      <span class="spec-label">Spatial Resolution</span>
+      <span class="spec-value">{{ page.spatial_resolution }}</span>
+    </div>
+  </div>
+</div>
+
 ## Objectifs
 
 - Étudier l’état mécanique d’une zone de faille de subduction avant de grands séismes (magnitude > 6) afin d’identifier des signaux précurseurs systématiques. 
