@@ -38,5 +38,6 @@ feature_row:
 {% include feature_row %}
 
 Partenaires:
-| [EPOS-France](https://www.epos-france.fr/) | [FormaTerre](https://formaterre.fr/) | [Observatoire de la Côte d’Azur](https://www.oca.eu/) |
+
+| [<img src="/assets/images/epos-france.png" alt="EPOS-France" height="80">](https://www.epos-france.fr/) | [<img src="/assets/images/formaterre.png" alt="FormaTerre" height="80">](https://formaterre.fr/) | [<img src="/assets/images/oca.png" alt="Observatoire de la Côte d'Azur" height="80">](https://www.oca.eu/) |
 |:---:|:---:|:---:|
