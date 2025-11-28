@@ -29,8 +29,14 @@ collection: projects
   ];
 
   markers.forEach(m => {
-    L.marker(m.coords)
-      .addTo(map)
-      .bindPopup(`<b>${m.name}</b><br><a href="${m.url}">Voir la page</a>`);
+    const circle = L.circleMarker(m.coords, {
+      radius: 8,
+      color: '#920000',
+      fillColor: '#920000',
+      fillOpacity: 0.9,
+      weight: 1
+    }).addTo(map);
+
+    circle.bindPopup(`<b>${m.name}</b><br><a href="${m.url}">Voir la page</a>`);
   });
 </script>
