@@ -30,14 +30,6 @@ gallery:
     title: "OptoDAS interrogator setup"
 ---
 
-<style>
-figure img {
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  object-position: center;
-}
-</style>
-
 _{{ page.subtitle }}_
 
 {% include project-info-card.html no_header=true %}
