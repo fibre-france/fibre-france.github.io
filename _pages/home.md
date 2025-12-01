@@ -26,10 +26,10 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "En savoir plus"
   - image_path: /assets/images/instruments.png
-    alt: "instruments"
-    title: "Instruments"
+    alt: "instruments & formation"
+    title: "Instruments & Formation"
     excerpt: "Le GdR G-FROG mets des instruments à dispositions de ses membres."
-    url: "/instruments/"
+    url: "/instruments-training/"
     btn_class: "btn--primary"
     btn_label: "En savoir plus"  
    

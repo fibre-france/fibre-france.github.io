@@ -1,5 +1,5 @@
 ---
-permalink: /instruments/
+permalink: /instruments-training/
 title: "Instruments & Formations"
 ---
 
