@@ -31,12 +31,11 @@ gallery:
 ---
 
 <style>
-.gallery__item img {
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
-    object-position: center;
+figure img {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center;
 }
-</style>
 
 _{{ page.subtitle }}_
 
