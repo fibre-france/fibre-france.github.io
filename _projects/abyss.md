@@ -5,18 +5,20 @@ pi: "Diane Rivet"
 contact: "diane.rivet@geoazur.unice.fr"
 institution: "Observatoire de la Côte d'Azur"
 funding: "ERC Starting Grant"
+website: "https://sites.google.com/view/dianerivet/erc-abyss"
 start_date: "2022"
 end_date: "2027"
-website: "https://sites.google.com/view/dianerivet/erc-abyss"
+location: "Central Chile"
+longitude: -71.2
+latitude: -31.1
+instruments: "3 OptoDAS" 
+cable_length: "2x150km + 100km"
+sampling_rate: "62.5-100Hz"
+spatial_resolution: "15m"
 categories:
   - Telecom
   - Submarine
   - Earthquakes
-longitude: -71.2
-latitude: -31.1
-interrogators: "3 OptoDAS" 
-sampling_rate: "62.5-100Hz"
-spatial_resolution: "15m"
 ---
 
 Monitoring megathrust faults with abyssal distributed acoustic sensing

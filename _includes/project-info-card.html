@@ -1,51 +1,118 @@
-<div class="project-info-card">
-  <h2>Project Information</h2>
-  
-  <div class="info-grid">
-    <div class="info-item">
-      <span class="info-label">Principal Investigator</span>
-      <span class="info-value">{{ page.pi }}</span>
-    </div>
-    <div class="info-item">
-      <span class="info-label">Institution</span>
-      <span class="info-value">{{ page.institution }}</span>
-    </div>
-    <div class="info-item">
-      <span class="info-label">Contact</span>
-      <span class="info-value"><a href="mailto:{{ page.contact }}">{{ page.contact }}</a></span>
-    </div>
-    <div class="info-item">
-      <span class="info-label">Funding</span>
-      <span class="info-value">{{ page.funding }}</span>
-    </div>
-    <div class="info-item">
-      <span class="info-label">Duration</span>
-      <span class="info-value">{{ page.start_date }} - {{ page.end_date }}</span>
-    </div>
-    <div class="info-item">
-      <span class="info-label">Location</span>
-      <span class="info-value">{{ page.latitude }}°S, {{ page.longitude }}°W</span>
-    </div>
-    <div class="info-item">
-      <span class="info-label">Categories</span>
-      <span class="info-value">{{ page.categories | join: ", " }}</span>
-    </div>
-  </div>
+<style>
+.project-info-card {
+    display: inline-block;
+    width: 320px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #111;
+    font-size: 13px;
+    line-height: 1.2;
+}
 
-  <h3>Technical Specifications</h3>
-  
-  <div class="tech-specs">
-    <div class="spec-item">
-      <span class="spec-label">Interrogators</span>
-      <span class="spec-value">{{ page.interrogators }}</span>
+/* header */
+.project-info-card .card-head {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 8px;
+}
+.project-info-card .title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+.project-info-card .meta {
+    color: #666;
+    font-size: 12px;
+}
+
+/* compact two-column list */
+.project-info-card dl {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 6px 10px;
+    margin: 0;
+}
+.project-info-card dt {
+    font-size: 12px;
+    color: #666;
+    font-weight: 600;
+    text-transform: none;
+}
+.project-info-card dd {
+    margin: 0;
+    font-size: 13px;
+    color: #111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.project-info-card a { color: #0b63c6; text-decoration: none; }
+.project-info-card a:hover { text-decoration: underline; }
+
+/* responsive: stack labels on very small screens */
+@media (max-width: 360px) {
+    .project-info-card { width: 100%; }
+    .project-info-card dl { grid-template-columns: 1fr; }
+    .project-info-card dt { font-size: 12px; color: #666; }
+    .project-info-card dd { white-space: normal; }
+}
+</style>
+
+<div class="project-info-card">
+    <div class="card-head">
+        <h3 class="title">{{ page.title | default: "Project" }}</h3>
+        <small class="meta">{{ page.pi }} • {{ page.institution }}</small>
     </div>
-    <div class="spec-item">
-      <span class="spec-label">Sampling Rate</span>
-      <span class="spec-value">{{ page.sampling_rate }}</span>
-    </div>
-    <div class="spec-item">
-      <span class="spec-label">Spatial Resolution</span>
-      <span class="spec-value">{{ page.spatial_resolution }}</span>
-    </div>
-  </div>
+
+    <dl>
+        <div>
+            <dt>Contact</dt>
+            <dd><a href="mailto:{{ page.contact }}">{{ page.contact }}</a></dd>
+        </div>
+
+        <div>
+            <dt>Funding</dt>
+            <dd>{{ page.funding }}</dd>
+        </div>
+
+        <div>
+            <dt>Duration</dt>
+            <dd>{{ page.start_date }} — {{ page.end_date }}</dd>
+        </div>
+
+        <div>
+            <dt>Location</dt>
+            <dd>{{ page.location }}</dd>
+        </div>
+
+        <div>
+            <dt>Categories</dt>
+            <dd>{{ page.categories | join: ", " }}</dd>
+        </div>
+
+        <div>
+            <dt>Instruments</dt>
+            <dd>{{ page.instruments }}</dd>
+        </div>
+
+        <div>
+            <dt>Cable</dt>
+            <dd>{{ page.cable_length }}</dd>
+        </div>
+
+        <div>
+            <dt>Sampling</dt>
+            <dd>{{ page.sampling_rate }}</dd>
+        </div>
+
+        <div>
+            <dt>Resolution</dt>
+            <dd>{{ page.spatial_resolution }}</dd>
+        </div>
+    </dl>
 </div>
