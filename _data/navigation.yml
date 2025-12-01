@@ -3,7 +3,7 @@ main:
     url: /news/
   - title: "Projets"
     url: /projects/
-  - title: "Instruments"
-    url: /instruments/
+  - title: "Instruments & Formation"
+    url: /instruments-training/
   - title: "À propos"
     url: /about/
