@@ -95,18 +95,17 @@
     }
 }
 </style>
-
 <div class="project-info-card" onclick="window.location.href='{{ page.url }}'">
     {% unless include.no_header %}
     <div class="card-head">
-        <h3 class="title">{{ page.title | default: "Project" }}</h3>
+        <h3 class="title">{{ page.title | default: "Projet" }}</h3>
         <div class="subtitle">{{ page.subtitle }}</div>
     </div>
     {% endunless %}
 
     <div class="info-grid">
         <div class="info-item">
-            <span class="info-label">PI</span>
+            <span class="info-label">Responsable (PI)</span>
             <span class="info-value">{{ page.pi }}</span>
         </div>
 
@@ -121,22 +120,22 @@
         </div>
 
         <div class="info-item">
-            <span class="info-label">Funding</span>
+            <span class="info-label">Financement</span>
             <span class="info-value">{{ page.funding }}</span>
         </div>
 
         <div class="info-item">
-            <span class="info-label">Duration</span>
+            <span class="info-label">Durée</span>
             <span class="info-value">{{ page.start_date }} — {{ page.end_date }}</span>
         </div>
 
         <div class="info-item">
-            <span class="info-label">Location</span>
+            <span class="info-label">Localisation</span>
             <span class="info-value">{{ page.location }}</span>
         </div>
 
         <div class="info-item">
-            <span class="info-label">Categories</span>
+            <span class="info-label">Catégories</span>
             <span class="info-value">{{ page.categories | join: ", " }}</span>
         </div>
 
@@ -146,23 +145,23 @@
         </div>
 
         <div class="info-item">
-            <span class="info-label">Cable</span>
+            <span class="info-label">Câble</span>
             <span class="info-value">{{ page.cable_length }}</span>
         </div>
 
         <div class="info-item">
-            <span class="info-label">Sampling</span>
+            <span class="info-label">Échantillonnage</span>
             <span class="info-value">{{ page.sampling_rate }}</span>
         </div>
 
         <div class="info-item">
-            <span class="info-label">Resolution</span>
+            <span class="info-label">Résolution spatiale</span>
             <span class="info-value">{{ page.spatial_resolution }}</span>
         </div>
 
         {% if page.website %}
         <div class="info-item">
-            <span class="info-label">Website</span>
+            <span class="info-label">Site web</span>
             <span class="info-value"><a href="{{ page.website }}" class="btn-website" target="_blank" onclick="event.stopPropagation()">Voir le site web</a></span>
         </div>
         {% endif %}
