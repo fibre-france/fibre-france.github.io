@@ -30,11 +30,24 @@ gallery:
     title: "OptoDAS interrogator setup"
 ---
 
+<style>
+.gallery .gallery__item {
+    width: calc(33.333% - 0.5em) !important;
+}
+
+.gallery__item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+</style>
+
 _{{ page.subtitle }}_
 
 {% include project-info-card.html no_header=true %}
 
-{% include gallery class="full" caption="ABYSS Project in Chile" %}
+{% include gallery caption="ABYSS Project in Chile" %}
 
 ## Objectifs
 
