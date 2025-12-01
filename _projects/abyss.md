@@ -38,14 +38,14 @@ gallery:
 - Renforcer les systèmes d'alerte sismique via des données très sensorielles et denses. 
 
 ## Déploiement
+
 Installation rapide (1 jour par noeud télécom). 
 
 ## Points d'attention
+
 Négotier le contrat de mise a disposition des câbles peut prendre beaucoup de temps, s'y prendre à l'avance.
 
 ## Collaboration
 
 Réseau GTD (GTD Telecom) le long de la côte chilienne. 
 Centro Sismológico Nacional du Chili. 
-
-For more details, visit the [ERC ABYSS project page](https://sites.google.com/view/dianerivet/erc-abyss).
