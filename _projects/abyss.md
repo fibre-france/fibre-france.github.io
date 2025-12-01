@@ -34,7 +34,7 @@ _{{ page.subtitle }}_
 
 {% include project-info-card.html no_header=true %}
 
-{% include gallery caption="ABYSS Project in Chile" %}
+{% include gallery class="full" caption="ABYSS Project in Chile" %}
 
 ## Objectifs
 
