@@ -19,11 +19,22 @@ categories:
   - Telecom
   - Submarine
   - Earthquakes
+gallery:
+  - url: /assets/images/stromboli.jpg
+    image_path: /assets/images/stromboli.jpg
+    alt: "Chile cable installation"
+    title: "Cable installation along Chilean coast"
+  - url: /assets/images/background.jpg
+    image_path: /assets/images/background.jpg
+    alt: "DAS interrogator"
+    title: "OptoDAS interrogator setup"
 ---
 
 _{{ page.subtitle }}_
 
 {% include project-info-card.html no_header=true %}
+
+{% include gallery caption="ABYSS Project in Chile" %}
 
 ## Objectifs
 
