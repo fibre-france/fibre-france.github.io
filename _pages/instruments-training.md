@@ -13,7 +13,14 @@ Actuellement, un instrument est disponible à la réservation : il s'agit d'un [
 
 Pour l'instant, il n'y a pas de « ticket modérateur », vous devez donc prendre en charge la totalité des frais d'expédition aller‑retour vers l'OCA entre les expériences, ou l'expédition vers le prochain site d'expérimentation.
 
-[Réservation DAS Mobile](https://docs.google.com/spreadsheets/d/14kikqxjNgn07JRaNIiZMTrdnUB7TYoG37IgzA2vU55w/edit?gid=0#gid=0)
+<div style="margin:1rem 0;">
+    <a href="https://docs.google.com/spreadsheets/d/14kikqxjNgn07JRaNIiZMTrdnUB7TYoG37IgzA2vU55w/edit?gid=0#gid=0"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Réservation DAS Mobile"
+         style="display:inline-block;padding:.6rem 1rem;background:#0078d4;color:#ffffff;border-radius:6px;text-decoration:none;font-weight:600;box-shadow:0 2px 4px rgba(0,0,0,0.15);">
+        Réservation DAS Mobile
+    </a>
+</div>
 
 ## Formation
 
