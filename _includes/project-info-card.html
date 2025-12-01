@@ -71,6 +71,27 @@
     text-decoration: underline; 
 }
 
+/* website button */
+.project-info-card .website-button {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+    text-align: center;
+}
+.project-info-card .website-button a {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0366d6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+.project-info-card .website-button a:hover {
+    background: #0256c7;
+}
+
 /* responsive */
 @media (max-width: 768px) {
     .project-info-card .info-grid { 
@@ -101,11 +122,6 @@
         <div class="info-item">
             <span class="info-label">Institution</span>
             <span class="info-value">{{ page.institution }}</span>
-        </div>
-
-        <div class="info-item">
-            <span class="info-label">Website</span>
-            <span class="info-value"><a href="{{ page.website }}" target="_blank" onclick="event.stopPropagation()">{{ page.website | remove: "https://" | remove: "http://" }}</a></span>
         </div>
 
         <div class="info-item">
@@ -147,5 +163,11 @@
             <span class="info-label">Resolution</span>
             <span class="info-value">{{ page.spatial_resolution }}</span>
         </div>
+
+        {% if page.website %}
+        <div class="website-button">
+            <a href="{{ page.website }}" target="_blank" onclick="event.stopPropagation()">Voir le site web</a>
+        </div>
+        {% endif %}
     </div>
 </div>
