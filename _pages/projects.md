@@ -3,7 +3,7 @@ permalink: /projects/
 title: Projects
 ---
 
-<div id="map" style="height: 600px; width: 100%;"></div>
+<div id="map" style="height: 400px; width: 100%;"></div>
 
 <link 
   rel="stylesheet" 
