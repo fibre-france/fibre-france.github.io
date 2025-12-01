@@ -30,6 +30,12 @@ Monitoring megathrust faults with abyssal distributed acoustic sensing
 - Étudier l’état mécanique d’une zone de faille de subduction avant de grands séismes (magnitude > 6) afin d’identifier des signaux précurseurs systématiques. 
 - Renforcer les systèmes d’alerte sismique via des données très sensorielles et denses. 
 
+## Déploiement
+Installation rapide (1 jour par noeud télécom). 
+
+## Points d'attention
+Négotier le contrat de mise a disposition des câbles peut prendre beaucoup de temps, s'y prendre à l'avance.
+
 ## Collaboration
 
 Réseau GTD (GTD Telecom) le long de la côte chilienne. 
