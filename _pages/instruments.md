@@ -3,11 +3,11 @@ permalink: /instruments/
 title: "Instruments"
 ---
 
-Explore our curated collection of scientific instruments available for borrowing. Whether you're conducting research, teaching, or pursuing a personal project, these tools are here to support your scientific endeavors. Browse the list below to find detailed information, images, and descriptions for each instrument.
+Explorez notre sélection d'instruments scientifiques disponibles à l'emprunt. Que vous meniez des recherches, enseigniez ou réalisiez un projet personnel, ces équipements sont là pour soutenir vos activités scientifiques.
 
-Currently, one instrument is available for reservation. This instrument is a Febus A1 DAS from the ANR MONIDAS project. You can book the instrument for your next campaign in this calendar and send an email to Diane Rivet.
+Actuellement, un instrument est disponible à la réservation : il s'agit d'un Febus A1 DAS issu du projet ANR MONIDAS. Vous pouvez réserver l'instrument pour votre prochaine campagne via ce calendrier et envoyer un courriel à Diane Rivet.
 
-For the moment, there is no “ticket modérateur,” and therefore you must cover the full cost of round-trip shipping to OCA between experiments, or shipping to the next experiment site.
+Pour l'instant, il n'y a pas de « ticket modérateur », vous devez donc prendre en charge la totalité des frais d'expédition aller‑retour vers l'OCA entre les expériences, ou l'expédition vers le prochain site d'expérimentation.
 
 [Réservation DAS Mobile](https://docs.google.com/spreadsheets/d/14kikqxjNgn07JRaNIiZMTrdnUB7TYoG37IgzA2vU55w/edit?gid=0#gid=0)
 

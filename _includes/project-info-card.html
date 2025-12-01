@@ -81,49 +81,31 @@
     </div>
 
     <dl>
-        <div>
-            <dt>Contact</dt>
-            <dd><a href="mailto:{{ page.contact }}" onclick="event.stopPropagation()">{{ page.contact }}</a></dd>
-        </div>
+        <dt>Contact</dt>
+        <dd><a href="mailto:{{ page.contact }}" onclick="event.stopPropagation()">{{ page.contact }}</a></dd>
 
-        <div>
-            <dt>Funding</dt>
-            <dd>{{ page.funding }}</dd>
-        </div>
+        <dt>Funding</dt>
+        <dd>{{ page.funding }}</dd>
 
-        <div>
-            <dt>Duration</dt>
-            <dd>{{ page.start_date }} — {{ page.end_date }}</dd>
-        </div>
+        <dt>Duration</dt>
+        <dd>{{ page.start_date }} — {{ page.end_date }}</dd>
 
-        <div>
-            <dt>Location</dt>
-            <dd>{{ page.location }}</dd>
-        </div>
+        <dt>Location</dt>
+        <dd>{{ page.location }}</dd>
 
-        <div>
-            <dt>Categories</dt>
-            <dd>{{ page.categories | join: ", " }}</dd>
-        </div>
+        <dt>Categories</dt>
+        <dd>{{ page.categories | join: ", " }}</dd>
 
-        <div>
-            <dt>Instruments</dt>
-            <dd>{{ page.instruments }}</dd>
-        </div>
+        <dt>Instruments</dt>
+        <dd>{{ page.instruments }}</dd>
 
-        <div>
-            <dt>Cable</dt>
-            <dd>{{ page.cable_length }}</dd>
-        </div>
+        <dt>Cable</dt>
+        <dd>{{ page.cable_length }}</dd>
 
-        <div>
-            <dt>Sampling</dt>
-            <dd>{{ page.sampling_rate }}</dd>
-        </div>
+        <dt>Sampling</dt>
+        <dd>{{ page.sampling_rate }}</dd>
 
-        <div>
-            <dt>Resolution</dt>
-            <dd>{{ page.spatial_resolution }}</dd>
-        </div>
+        <dt>Resolution</dt>
+        <dd>{{ page.spatial_resolution }}</dd>
     </dl>
 </a>
