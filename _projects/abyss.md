@@ -36,6 +36,7 @@ figure img {
   object-fit: cover;
   object-position: center;
 }
+</style>
 
 _{{ page.subtitle }}_
 
