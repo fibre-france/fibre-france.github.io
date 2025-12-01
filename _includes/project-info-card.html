@@ -1,83 +1,85 @@
 <style>
 .project-info-card {
     display: block;
-    width: 100vw;
-    max-width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
+    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
-    padding: 10px 12px;
-    border-radius: 0;
-    background: #fff;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    padding: 20px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background: #f8f9fa;
+    border: 1px solid #e1e4e8;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     color: #111;
-    font-size: 13px;
-    line-height: 1.2;
     text-decoration: none;
     cursor: pointer;
-    transition: box-shadow 0.2s ease;
+    transition: all 0.2s ease;
 }
 .project-info-card:hover {
-    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    background: #fff;
+    border-color: #0366d6;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* header */
 .project-info-card .card-head {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #e1e4e8;
+    padding-bottom: 12px;
 }
 .project-info-card .title {
-    margin: 0;
-    font-size: 15px;
+    margin: 0 0 4px 0;
+    font-size: 20px;
     font-weight: 600;
-    line-height: 1.1;
-    color: #111;
+    color: #0366d6;
 }
 .project-info-card .meta {
-    color: #666;
-    font-size: 12px;
+    color: #586069;
+    font-size: 14px;
 }
 
 /* compact two-column list */
 .project-info-card dl {
     display: grid;
-    grid-template-columns: 110px 1fr;
-    gap: 6px 10px;
+    grid-template-columns: 130px 1fr;
+    gap: 8px 16px;
     margin: 0;
 }
 .project-info-card dt {
-    font-size: 12px;
-    color: #666;
+    font-size: 13px;
+    color: #586069;
     font-weight: 600;
-    text-transform: none;
 }
 .project-info-card dd {
     margin: 0;
-    font-size: 13px;
-    color: #111;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    font-size: 14px;
+    color: #24292e;
 }
-.project-info-card a { color: #0b63c6; text-decoration: none; }
-.project-info-card a:hover { text-decoration: underline; }
+.project-info-card dd a { 
+    color: #0366d6; 
+    text-decoration: none; 
+}
+.project-info-card dd a:hover { 
+    text-decoration: underline; 
+}
 
-/* responsive: stack labels on very small screens */
-@media (max-width: 360px) {
-    .project-info-card { width: 100%; }
-    .project-info-card dl { grid-template-columns: 1fr; }
-    .project-info-card dt { font-size: 12px; color: #666; }
-    .project-info-card dd { white-space: normal; }
+/* responsive */
+@media (max-width: 600px) {
+    .project-info-card dl { 
+        grid-template-columns: 1fr; 
+        gap: 4px;
+    }
+    .project-info-card dt { 
+        font-weight: 700;
+        margin-top: 8px;
+    }
 }
 </style>
 
 <a href="{{ page.url }}" class="project-info-card">
     <div class="card-head">
         <h3 class="title">{{ page.title | default: "Project" }}</h3>
-        <small class="meta">{{ page.pi }} • {{ page.institution }}</small>
+        <div class="meta">{{ page.pi }} • {{ page.institution }}</div>
     </div>
 
     <dl>
