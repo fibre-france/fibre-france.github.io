@@ -20,8 +20,8 @@ categories:
   - Submarine
   - Earthquakes
 gallery:
-  - url: /assets/images/stromboli.jpg
-    image_path: /assets/images/stromboli.jpg
+  - url: /assets/images/background.jpg
+    image_path: /assets/images/background.jpg
     alt: "Chile cable installation"
     title: "Cable installation along Chilean coast"
   - url: /assets/images/background.jpg
