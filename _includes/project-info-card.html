@@ -89,13 +89,23 @@
 
     <div class="info-grid">
         <div class="info-item">
-            <span class="info-label">PI / Contact</span>
-            <span class="info-value">{{ page.pi }} • <a href="mailto:{{ page.contact }}" onclick="event.stopPropagation()">{{ page.contact }}</a></span>
+            <span class="info-label">PI</span>
+            <span class="info-value">{{ page.pi }}</span>
+        </div>
+
+        <div class="info-item">
+            <span class="info-label">Contact</span>
+            <span class="info-value"><a href="mailto:{{ page.contact }}" onclick="event.stopPropagation()">{{ page.contact }}</a></span>
         </div>
 
         <div class="info-item">
             <span class="info-label">Institution</span>
             <span class="info-value">{{ page.institution }}</span>
+        </div>
+
+        <div class="info-item">
+            <span class="info-label">Website</span>
+            <span class="info-value"><a href="{{ page.website }}" target="_blank" onclick="event.stopPropagation()">{{ page.website | remove: "https://" | remove: "http://" }}</a></span>
         </div>
 
         <div class="info-item">

@@ -30,16 +30,12 @@ gallery:
     title: "OptoDAS interrogator setup"
 ---
 
-_{{ page.subtitle }}_
-
-{% include project-info-card.html no_header=true %}
-
-{% include gallery %}
+{% include project-page-header.html %}
 
 ## Objectifs
 
-- Étudier l’état mécanique d’une zone de faille de subduction avant de grands séismes (magnitude > 6) afin d’identifier des signaux précurseurs systématiques. 
-- Renforcer les systèmes d’alerte sismique via des données très sensorielles et denses. 
+- Étudier l'état mécanique d'une zone de faille de subduction avant de grands séismes (magnitude > 6) afin d'identifier des signaux précurseurs systématiques. 
+- Renforcer les systèmes d'alerte sismique via des données très sensorielles et denses. 
 
 ## Déploiement
 Installation rapide (1 jour par noeud télécom). 
