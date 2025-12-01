@@ -1,6 +1,6 @@
 ---
 title: "ABYSS"
-subtile: "Monitoring megathrust faults with abyssal distributed acoustic sensing"
+subtitle: "Monitoring megathrust faults with abyssal distributed acoustic sensing"
 pi: "Diane Rivet"
 contact: "diane.rivet@geoazur.unice.fr"
 institution: "Observatoire de la Côte d'Azur"
@@ -21,9 +21,9 @@ categories:
   - Earthquakes
 ---
 
-Monitoring megathrust faults with abyssal distributed acoustic sensing
+_{{ page.subtitle }}_
 
-{% include project-info-card.html %}
+{% include project-info-card.html no_header=true %}
 
 ## Objectifs
 
