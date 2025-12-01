@@ -79,7 +79,7 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single
+      layout: projects
       author_profile: false
 
 category_archive:
