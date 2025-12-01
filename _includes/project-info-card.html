@@ -11,7 +11,6 @@
     border: 1px solid #e1e4e8;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     color: #111;
-    text-decoration: none;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -76,7 +75,7 @@
 }
 </style>
 
-<a href="{{ page.url }}" class="project-info-card">
+<div class="project-info-card" onclick="window.location.href='{{ page.url }}'">
     <div class="card-head">
         <h3 class="title">{{ page.title | default: "Project" }}</h3>
         <div class="meta">{{ page.pi }} • {{ page.institution }}</div>
@@ -110,4 +109,4 @@
         <dt>Resolution</dt>
         <dd>{{ page.spatial_resolution }}</dd>
     </dl>
-</a>
+</div>
