@@ -1,6 +1,6 @@
 ---
 permalink: /instruments-training/
-title: "Instruments & Formations"
+title: "Instruments & Formation"
 ---
 
 Le groupement G‑FROG aide les personnes souhaitant se lancer dans le DAS en mettant à disposition des instruments et en proposant des formations notamment à [Xdas](https://xdas.readthedocs.io).
