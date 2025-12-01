@@ -31,13 +31,8 @@ gallery:
 ---
 
 <style>
-.gallery .gallery__item {
-    width: calc(33.333% - 0.5em) !important;
-}
-
 .gallery__item img {
-    width: 100%;
-    height: 250px;
+    aspect-ratio: 3 / 2;
     object-fit: cover;
     object-position: center;
 }
