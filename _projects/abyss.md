@@ -30,8 +30,8 @@ gallery:
     title: "OptoDAS interrogator setup"
 ---
 
-## Objectifs
-
+## Objectifs 
+- Construire un observatoire sismologique en fond de mer pour un suivi complet et à long terme de la sismicité au Chili central [pisco.unice.fr](https://pisco.unice.fr). 
 - Étudier l'état mécanique d'une zone de faille de subduction avant de grands séismes (magnitude > 6) afin d'identifier des signaux précurseurs systématiques. 
 - Renforcer les systèmes d'alerte sismique via des données très sensorielles et denses. 
 
@@ -41,9 +41,14 @@ Installation rapide (1 jour par noeud télécom).
 
 ## Points d'attention
 
-Négotier le contrat de mise a disposition des câbles peut prendre beaucoup de temps, s'y prendre à l'avance.
+Négocier le contrat de mise à disposition des câbles avec l'opérateur télécom peut prendre beaucoup de temps, s'y prendre à l'avance.
 
 ## Collaboration
 
-Réseau GTD (GTD Telecom) le long de la côte chilienne. 
-Centro Sismológico Nacional du Chili. 
+Réseau GTD (GTD Telecom). 
+Centro Sismológico Nacional de Chile. 
+Departamento de Geofisica de la Universidad de Chile 
+
+## Plan de gestion des données 
+- Les volumes enregistrés, envoyés et stockés au laboratoire sont de l'ordre de 100To par an. 
+- Des données en vitesse et en strain-rate, décimées spaciatialement sont transmises en temps réel sont accéssible via Epos-France [réseau F1](https://www.fdsn.org/networks/detail/F1/)
