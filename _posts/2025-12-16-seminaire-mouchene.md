@@ -1,7 +1,7 @@
 ---
 title: "Séminaire en ligne  : Discussion sur la plateforme DAS Gaia Data"
 categories:
-  - séminaire
+  - News
 tags:
   - Event
 ---
