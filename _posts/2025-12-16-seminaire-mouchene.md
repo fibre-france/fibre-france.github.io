@@ -8,7 +8,6 @@ tags:
 
 ### Margaux Mouchène ISTERRE, Ingénieur Data Terra
 
-### Date : Mardi 16 décembre à 10h
 #### lien zoom
 
 
