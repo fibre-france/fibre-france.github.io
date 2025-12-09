@@ -1,5 +1,5 @@
 ---
-title: "Séminaire en ligne  : Discussion sur la plateforme DAS Gaia Data"
+title: "Séminaire en ligne : Discussion sur la plateforme DAS Gaia Data"
 categories:
   - News
 tags:
@@ -9,7 +9,6 @@ tags:
 ### Margaux Mouchène ISTERRE, Ingénieur Data Terra
 
 #### lien zoom
-
 
 Dans le cadre de mon travail pour le développement de la plateforme pour l’accès et le traitement de données DAS sur l’infrastructure Gaia Data, je voudrais vous proposer une réunion pour faire un point d’étape et échanger sur les données DAS et leurs traitements.
 
