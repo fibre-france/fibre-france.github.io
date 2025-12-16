@@ -36,6 +36,10 @@ gallery:
     image_path: /assets/images/abyss_lesyeux.jpeg
     alt: "Projet Abyss"
     title: "Installation des équipements sur le réseau télécom chilien"
+  - url: /assets/images/abyss_pisco.png
+    image_path: /assets/images/abyss_pisco.png
+    alt: "DAS interrogator"
+    title: "Suivi de la sismicité sur la webapp Pisco "
   - url: /assets/images/abyss_plage_serena.jpeg
     image_path: /assets/images/abyss_plage_serena.jpeg
     alt: "DAS interrogator"
