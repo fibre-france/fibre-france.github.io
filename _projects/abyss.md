@@ -20,14 +20,28 @@ categories:
   - Submarine
   - Earthquakes
 gallery:
-  - url: /assets/images/background.jpg
-    image_path: /assets/images/background.jpg
-    alt: "Chile cable installation"
-    title: "Cable installation along Chilean coast"
-  - url: /assets/images/background.jpg
-    image_path: /assets/images/background.jpg
+  - url: /assets/images/abyss_logosdessin.png
+    image_path: /assets/images/abyss_logosdessin.png
+    alt: "Projet Abyss"
+    title: "Projet Abyss"
+  - url: /assets/images/abyss_cactus.png
+    image_path: /assets/images/abyss_cactus.png
+    alt: "Projet Abyss"
+    title: "Installation de stations sismologiques terrestres en complément du réseau fibre marin"
+  - url: /assets/images/abyss_cactus2.jpeg
+    image_path: /assets/images/abyss_cactus2.jpeg
+    alt: "Projet Abyss"
+    title: "Installation de stations sismologiques terrestres en complément du réseau fibre marin"
+  - url: /assets/images/abyss_lesyeux.jpeg
+    image_path: /assets/images/abyss_lesyeux.jpeg
+    alt: "Projet Abyss"
+    title: "Installation des équipements sur le réseau télécom chilien"
+  
+   - url: /assets/images/abyss_plage_serena.jpeg
+    image_path: /assets/images/abyss_plage_serena.jpeg
     alt: "DAS interrogator"
     title: "OptoDAS interrogator setup"
+    
 ---
 
 ## Objectifs 
