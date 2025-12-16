@@ -6,14 +6,15 @@ tags:
   - Event
 ---
 
-### Margaux Mouchène ISTERRE, Ingénieur Data Terra
-
-#### lien zoom
+## Margaux Mouchène ISTERRE, Ingénieur Data Terra
 
 Dans le cadre de mon travail pour le développement de la plateforme pour l’accès et le traitement de données DAS sur l’infrastructure Gaia Data, je voudrais vous proposer une réunion pour faire un point d’étape et échanger sur les données DAS et leurs traitements.
 
-####  À l’ordre du jour :
+###  Ordre du jour
 - présentation et avancement de la plateforme DAS Gaia Data (15’)
 - discussion sur les données : jeux de données (existants, projets…), formats de données et métadonnées
 - questions diverses
 - modalités et dates pour une réunion régulière
+
+### Compte rendu 
+Le compte rendu est disponible : [voir le compte rendu](https://docs.google.com/document/d/1pSjNcrqhHUVd9dqFnyrBOFlNK2CeAmOfaQaGCAQJG-M/edit?usp=sharing).
