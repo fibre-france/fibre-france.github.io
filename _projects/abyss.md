@@ -36,11 +36,10 @@ gallery:
     image_path: /assets/images/abyss_lesyeux.jpeg
     alt: "Projet Abyss"
     title: "Installation des équipements sur le réseau télécom chilien"
-  
-   - url: /assets/images/abyss_plage_serena.jpeg
+  - url: /assets/images/abyss_plage_serena.jpeg
     image_path: /assets/images/abyss_plage_serena.jpeg
     alt: "DAS interrogator"
-    title: "OptoDAS interrogator setup"
+    title: "Abyss people"
     
 ---
 
